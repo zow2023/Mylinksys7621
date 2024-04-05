@@ -24,7 +24,7 @@ git clone https://github.com/sbwml/luci-app-mosdns -b v5 package/mosdns
 #git clone https://github.com/RavenCage/luci-app-mosdns -b v5 package/mosdns
 git clone https://github.com/sbwml/v2ray-geodata package/v2ray-geodata
 
-git clone https://github.com/kiddin9/luci-app-dnsfilter package/luic-app-dnsfilter
+#git clone https://github.com/kiddin9/luci-app-dnsfilter package/luic-app-dnsfilter
 git clone https://github.com/kingyond/luci-app-accesscontrol-plus package/luci-app-accesscontrol-plus
 
 echo '替换golang到1.22.x'
