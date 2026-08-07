@@ -134,9 +134,9 @@ CONFIG_TARGET_ramips_mt7621=y
 # CONFIG_TARGET_ramips_mt7621_DEVICE_linksys_ea6350-v4 is not set
 # CONFIG_TARGET_ramips_mt7621_DEVICE_linksys_ea7300-v1 is not set
 # CONFIG_TARGET_ramips_mt7621_DEVICE_linksys_ea7300-v2 is not set
-CONFIG_TARGET_ramips_mt7621_DEVICE_linksys_ea7500-v2=y
+#CONFIG_TARGET_ramips_mt7621_DEVICE_linksys_ea7500-v2=
 # CONFIG_TARGET_ramips_mt7621_DEVICE_linksys_ea8100-v1 is not set
-# CONFIG_TARGET_ramips_mt7621_DEVICE_linksys_ea8100-v2 is not set
+CONFIG_TARGET_ramips_mt7621_DEVICE_linksys_ea8100-v2=y
 # CONFIG_TARGET_ramips_mt7621_DEVICE_linksys_re6500 is not set
 # CONFIG_TARGET_ramips_mt7621_DEVICE_mediatek_ap-mt7621a-v60 is not set
 # CONFIG_TARGET_ramips_mt7621_DEVICE_mediatek_mt7621-eval-board is not set
@@ -234,7 +234,7 @@ CONFIG_HAS_SUBTARGETS=y
 CONFIG_HAS_DEVICES=y
 CONFIG_TARGET_BOARD="ramips"
 CONFIG_TARGET_SUBTARGET="mt7621"
-CONFIG_TARGET_PROFILE="DEVICE_linksys_ea7500-v2"
+CONFIG_TARGET_PROFILE="DEVICE_linksys_ea8100-v2"
 CONFIG_TARGET_ARCH_PACKAGES="mipsel_24kc"
 CONFIG_DEFAULT_TARGET_OPTIMIZATION="-Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc"
 CONFIG_CPU_TYPE="24kc"
